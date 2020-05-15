@@ -1,0 +1,6 @@
+function changeText() {
+    document.getElementById('demo').innerHTML = "hejsan hoppsan"
+}
+
+const paragraph = document.getElementsByTagName("p")[0]
+paragraph.addEventListener("click",changeText)
